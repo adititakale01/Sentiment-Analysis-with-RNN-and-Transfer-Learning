@@ -102,3 +102,5 @@ def build_model(max_len, embedding_dim, num_lstm_units, num_emoji_classes):
     model.compile(loss=CategoricalCrossentropy(), optimizer=Adam(learning_rate=0.001), metrics=["accuracy"])
 
     return model
+
+
